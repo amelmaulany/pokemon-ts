@@ -1,23 +1,83 @@
 export const getBgTypesColor = (type: string) => {
-    return (
-        type === 'normal' ? '#E7E5E5' :
-        type === 'fighting' ? '#E5B6B6' :
-        type === 'flying' ? '#B6DCE5' :
-        type === 'poison' ? '#CEB6E5' :
-        type === 'ground' ? '#E5D2B6' :
-        type === 'rock' ? '#A29A8E' :
-        type === 'bug' ? '#E7EFC9' :
-        type === 'ghost' ? ' #C5BECA' :
-        type === 'steel' ? '#CCD1D1' :
-        type === 'fire' ? '#FADACD' :
-        type === 'water' ? '#C9EEEF' :
-        type === 'grass' ? '#D2EFC9' :
-        type === 'electric' ? '#FDFAB1' :
-        type === 'psychic' ? '#B4B0C8' :
-        type === 'ice' ? '#C4E6FC' :
-        type === 'dragon' ? '#C1BCBA' :
-        type === 'dark' ? '#B4B4B4' :
-        type === 'fairy' ? '#E8C1DC' :
-        type === 'shadow' ? '#C7C7C7' : '#919191'
-    );
-}
+  return type === "normal"
+    ? "#E7E5E5"
+    : type === "fighting"
+    ? "#E5B6B6"
+    : type === "flying"
+    ? "#B6DCE5"
+    : type === "poison"
+    ? "#CEB6E5"
+    : type === "ground"
+    ? "#E5D2B6"
+    : type === "rock"
+    ? "#A29A8E"
+    : type === "bug"
+    ? "#E7EFC9"
+    : type === "ghost"
+    ? " #C5BECA"
+    : type === "steel"
+    ? "#CCD1D1"
+    : type === "fire"
+    ? "#FADACD"
+    : type === "water"
+    ? "#C9EEEF"
+    : type === "grass"
+    ? "#D2EFC9"
+    : type === "electric"
+    ? "#FDFAB1"
+    : type === "psychic"
+    ? "#B4B0C8"
+    : type === "ice"
+    ? "#C4E6FC"
+    : type === "dragon"
+    ? "#C1BCBA"
+    : type === "dark"
+    ? "#B4B4B4"
+    : type === "fairy"
+    ? "#E8C1DC"
+    : type === "shadow"
+    ? "#C7C7C7"
+    : "#919191";
+};
+
+export const getBgTypesDarkColor = (type: string) => {
+  return type === "normal"
+    ? "#CECECE"
+    : type === "fighting"
+    ? "#D3A8A8"
+    : type === "flying"
+    ? "#99BAC1"
+    : type === "poison"
+    ? "#AA97BD"
+    : type === "ground"
+    ? "#C8B69C"
+    : type === "rock"
+    ? "#80796F"
+    : type === "bug"
+    ? "#B9BFA1"
+    : type === "ghost"
+    ? " #A39DA7"
+    : type === "steel"
+    ? "#A0A5A5"
+    : type === "fire"
+    ? "#D4B8AC"
+    : type === "water"
+    ? "#ABCCCD"
+    : type === "grass"
+    ? "#ABC9A2"
+    : type === "electric"
+    ? "#DEDB9A"
+    : type === "psychic"
+    ? "#918EA2"
+    : type === "ice"
+    ? "#A1BDCF"
+    : type === "dragon"
+    ? "#999594"
+    : type === "dark"
+    ? "#8E8D8D"
+    : type === "fairy"
+    ? "#CAA7BF"
+    : type === "shadow"
+    ? "#B0B0B0"
+    : "#6A6A6A";
+};
